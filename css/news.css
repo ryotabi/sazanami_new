@@ -1,0 +1,13 @@
+.news-bg{
+    background-image: url("../img/images/news-bg\ \(2\).jpg");
+    background-size: cover;
+    background-position-y: -280px;
+    padding-top: 180px;
+    
+}
+
+.nw-title{
+    font-size: 5rem;
+    color: #fff;
+    font-family: 'HGP行書体';
+}

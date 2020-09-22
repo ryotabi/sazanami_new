@@ -1,0 +1,297 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.recruit-bg{
+    background-image: url("../img/images/recruit.png");
+    background-size: cover;
+    background-position-y: -150px;
+    padding-top: 180px;
+}
+
+.recruit-title{
+    font-size: 5rem;
+    color: #fff;
+    font-family: 'HGP行書体';
+}
+
+.main-img{
+    height: 2250px;
+}
+
+@media (max-width: 376px){
+    .recruit-bg{
+    background-position-y: -132px;
+    }
+}
+
+
+/* toformセクション */
+.toform{
+    width: 100%;
+    height: auto;
+    background-color: rgba(191,151,67,53%);
+    padding-bottom: 1px;
+}
+
+.toform-title{
+    font-size: 64px;
+    font-family: "HGP行書体";
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.toform-btn{
+    width: 15%;
+    height: 60px;
+    margin: 60px auto 50px;
+    padding: 10px 20px;
+    background-color: #B7282E;
+    text-align: center;
+}
+
+.btn-text{
+    font-size: 25px;
+    line-height: 45px;
+    color: #000;
+    font-family: "HGP行書体";
+}
+
+.btn-text i{
+    margin-left: 15%;
+    transition: all 0.5s ease;
+}
+
+.toform-btn:hover .btn-text i{
+    transform: translateX(10px);
+}
+
+@media (max-width: 769px){
+    .toform-title{
+        font-size: 50px;
+    }
+    .toform-btn{
+        width: 30%;
+    }
+}
+
+@media (max-width: 415px){
+    .toform-title{
+        font-size: 40px;
+    }
+    .toform-btn{
+        width: 40%;
+        margin: 30px auto 50px;
+    }
+}
+
+
+/* タブ部分 */
+.recruit-wrap{
+    width: 90%;
+    height: auto;
+    margin: 50px auto;
+    background-color: #EAE2D2;
+}
+
+.recruit-tabs{
+    width: 100%;
+    display: flex;
+}
+
+.recruit-tab1,.recruit-tab2{
+    width: 50%;
+    height: 100px;
+    background-color: #EAE2D2;
+    border-bottom: 3px solid #B7282E;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0,0,0,25%);
+    font-family: "HGP行書体";
+    font-size: 20px;
+    line-height: 100px;
+    color: #000;
+    cursor: pointer;
+}
+
+.recruit-tab1:hover,.recruit-tab2:hover{
+    background-color: #B7282E;
+}
+
+.recruit-tab1.active,.recruit-tab2.active{
+    background-color: #B7282E;
+}
+
+#panel-parttime,#panel-fulltime{
+    padding: 70px 60px;
+    line-height: 50px;
+    width: 50%;
+    margin: 0 auto;
+    display: none;
+}
+
+#panel-parttime.active,#panel-fulltime.active{
+    display: block;
+}
+
+#panel-parttime li,#panel-fulltime li{
+    font-size: 20px;
+    font-family: "HGP行書体";
+    color: #000;
+}
+
+#panel-parttime .toform-btn,#panel-fulltime .toform-btn{
+    width: 67%;
+}
+
+.time{
+    margin-bottom: 0 !important;
+}
+
+@media (max-width: 1025px){
+    #panel-parttime,#panel-fulltime{
+        width: 100%;
+    }
+}
+
+@media (max-width: 415px){
+    #panel-parttime .toform-btn .btn-text,#panel-fulltime .toform-btn .btn-text{
+        font-size: 14px;
+    }
+    #panel-parttime .toform-btn,#panel-fulltime .toform-btn{
+        width: 90%;
+    }
+}
+
+
+/* フォーム */
+.form-title{
+    font-size: 40px;
+    font-family: "HGP行書体";
+    color: #000;
+    text-align: center;
+    margin: 50px 0 60px 0;
+}
+
+.form table{
+    table-layout: fixed;
+    width: 100%;
+}
+
+.form{
+    width: 40%;
+    margin: 30px auto;
+}
+
+.radio2{
+    margin-left: 5% !important;
+}
+
+.work{
+    width: 106% !important;
+}
+
+.text-form{
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+    height: 100px;
+}
+
+.form tr{
+    height: 50px;
+}
+
+.form th{
+    width: 60%;;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.submit{
+    width: 30%;
+    margin: 80px 35% 0;
+    border: none;
+    box-shadow: 0px 2px 10px;
+    height: 40px;
+    text-align: center;
+    background-color: #B7282E;
+}
+
+@media (max-width: 769px){
+    .form{
+        width: 65%;
+    }
+}
+
+@media (max-width: 415px){
+    .form-title{
+        margin: 50px 0 40px 0;
+    }
+    .form{
+        margin: 0px auto;
+    }
+    .form tr{
+        display: flex;
+        flex-direction: column;
+        margin-top: 35px;
+    }
+    .form th{
+        width: 100%;
+    }
+    .submit{
+        margin: 130px 35% 0;
+    }
+}
+
+/* サンクスページ */
+.thanks-img{
+    height: 94vh !important;
+}
+
+.thanks-wrap{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.thanks-text{
+    padding: 50px 100px;
+    font-size: 30px;
+    line-height: 50px;
+    color: #000;
+    font-family: "HGP行書体";
+}
+
+@media (max-width: 1025px){
+    .thanks-wrap{
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 80px;
+    }
+    .thanks-text{
+        padding: 50px 100px;
+        font-size: 30px;
+        line-height: 50px;
+        color: #000;
+        font-family: "HGP行書体";
+    }
+    .thanks-wrap .toform-btn{
+        width: 30%;
+    }
+}
+
+@media (max-width: 415px){
+    .thanks-text{
+        padding: 50px 40px;
+    }
+    .thanks-wrap .toform-btn{
+        width: 40%;
+    }
+}
+
+
+
+

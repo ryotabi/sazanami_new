@@ -1,0 +1,63 @@
+.bg-hd{
+    background-image: url("../img/images/menu-bg.jpg");
+    background-size: cover;
+    background-position: 0 -119px
+
+}
+
+.mn-title{
+    font-size: 6rem;
+    color: #ffffff;
+    font-family: 'HGP行書体';
+}
+.menu-area-wrap{
+    margin-bottom: 6%;
+}
+
+.menu-item-wrap2{
+    opacity: 0;
+    transition: .7s;
+    width: 100%;
+    height: 500px;
+    background-color: #EAE2D2;
+    writing-mode: vertical-rl;
+    padding: 50px 30%;
+    font-family: 'menu-font';
+}
+
+.menu-price2{
+    margin-right: 14%;
+    text-align: end;
+    font-size: 30px;
+}
+@media (max-width: 375px){
+    .menu-price2{
+        margin-right: 13%;
+    }
+
+}
+
+.manu-item1,.menu-item2,.menu-item3,.menu-item4,.menu-item5,.menu-item6,.menu-item7,.menu-item8,.menu-item9,.menu-item10,.menu-item11{
+    opacity: 0;
+    transition: all 3s ;
+}
+
+.menu-item2,.menu-item4,.menu-item8{
+    transition-delay: 300ms;
+}
+
+.menu-item3,.menu-item6,.menu-item10{
+    transition-delay: 600ms;
+}
+
+.menu-item5{
+    transition-delay: 900ms;
+}
+
+.menu-item7{
+   transition-delay: 1200ms;
+}
+
+.menu-item4.show,.menu-item5.show,.menu-item6.show,.menu-item7.show,.menu-item8.show,.menu-item9.show,.menu-item10.show,.menu-item11.show{
+    opacity: 1;
+}
