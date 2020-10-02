@@ -8,12 +8,12 @@ $tel=$_POST['tel'];
 $email=$_POST['email'];
 $day=$_POST['day'];
 
-$num=$_SESSION['num'];
-if($num===""){
-    $num=0;
+$takeoutNum=$_SESSION['takeoutNum'];
+if($takeoutNum===""){
+    $takeoutNum=0;
 }
-$num+=1;
-$_SESSION['num']=$num;
+$takeoutNum+=1;
+$_SESSION['takeoutNum']=$takeoutNum;
 
 $honbun='';
 $honbun.="ご注文ありがとうございました。\n";
@@ -22,7 +22,7 @@ $honbun.="\n";
 $honbun.= "以下ご注文の詳細になります。\n";
 $honbun.="-------------\n";
 $honbun.="お受渡し番号\n";
-$honbun.=$num."\n";
+$honbun.=$takeoutNum."\n";
 
 $cart=$_SESSION['cart'];
 $kazu=$_SESSION['kazu'];
@@ -178,7 +178,7 @@ catch(Exception $e){
             <div class="col-md-12 hd-border"></div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4  col-sm-2 col-xs-6 tab-hd">
+                    <div class="col-md-4  col-sm-6 col-xs-6 tab-hd">
                         <div class="logo">
                             <img src="../img/images/icon.png" alt="" class="hd-icon">
                             <h3 class="hd-title"><a href="http://s-ryota.sakura.ne.jp/sazanami/index.php">さざなみ</a></h3>
@@ -246,7 +246,7 @@ catch(Exception $e){
                 </div>   
                     <div class="buy_wrap">
                         <h3 class="buy_num_text">お受渡し番号</h3>
-                        <p class="buy_num"><?php print $num;?></p>
+                        <p class="buy_num"><?php print $takeoutNum;?></p>
                     </div>
                     <div class="buy_text_wrap">
                         <p class="buy_text">ご注文ありがとうございました。ご来店の際は、上記のお受渡し番号またはお送りさせて頂いたメールをご提示下さい。</p>

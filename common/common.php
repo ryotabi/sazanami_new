@@ -1,7 +1,7 @@
 <?php
 function pulldown_year()
 {
-    print '<select name="year" >';
+    print '<select name="year" class="year">';
     print '<option value="2017">2017</option>';
     print '<option value="2018">2018</option>';
     print '<option value="2019">2019</option>';
@@ -10,7 +10,7 @@ function pulldown_year()
 }
 function pulldown_month()
 {
-    print '<select name="month" >';
+    print '<select name="month" class="month">';
     print '<option value="01">01</option>';
     print '<option value="02">02</option>';
     print '<option value="03">03</option>';
@@ -27,7 +27,7 @@ function pulldown_month()
 }
 function pulldown_day()
 {
-    print '<select name="day" >';
+    print '<select name="day" class="day">';
     print '<option value="01">01</option>';
     print '<option value="02">02</option>';
     print '<option value="03">03</option>';

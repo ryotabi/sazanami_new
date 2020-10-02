@@ -125,6 +125,12 @@ $(function() {
                         slidesToScroll: 3,
                 }
         },{
+        breakpoint: 700,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                    }
+        },{
         breakpoint: 480,
                     settings: {
                         slidesToShow: 1,
@@ -148,10 +154,6 @@ var mySwiper = new Swiper('.swiper-container', {
     spaceBetween: 10,
     slidesPerView: 3,
     slidesPerGroup: 3,
-    navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev'
-    },
     pagination: {
 		el: '.swiper-pagination',
 		type: 'bullets',

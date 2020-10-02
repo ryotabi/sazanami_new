@@ -32,7 +32,7 @@
             <div class="col-md-12 hd-border"></div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4  col-sm-2 col-xs-6 tab-hd">
+                    <div class="col-md-4  col-sm-6 col-xs-6 tab-hd">
                         <div class="logo">
                             <img src="../img/images/icon.png" alt="" class="hd-icon">
                             <h3 class="hd-title"><a href="http://s-ryota.sakura.ne.jp/sazanami/index.php">さざなみ</a></h3>

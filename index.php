@@ -31,7 +31,7 @@
                 <div class="col-md-12 hd-border"></div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4  col-sm-2 col-xs-6 tab-hd">
+                        <div class="col-md-4  col-sm-6 col-xs-6 tab-hd">
                             <div class="logo">
                                 <img src="img/images/icon.png" alt="" class="hd-icon">
                                 <h3 class="hd-title"><a href="http://s-ryota.sakura.ne.jp/sazanami/index.php">さざなみ</a></h3>
@@ -208,7 +208,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="tweet-wrap">
-                            <a href="https://twiter.com/share?url=http://s-ryota.sakura.ne.jp/sazanami/index.php" class="button large button-black mb-20 tweet-btn " target="_blank"><span style="color:#fff;margin-right:5px;"><i class="fab fa-twitter"></i></span>ツイートする</a>
+                            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="button large button-black mb-20 tweet-btn " target="_blank"><span style="color:#fff;margin-right:5px;"><i class="fab fa-twitter"></i></span>ツイートする</a>
                         </div>
                     </div>
                 </div>
@@ -277,7 +277,9 @@
                                 <p class="point-text">完全手打ち麺により、コシのある麺に仕上がっています</p>
                                 <p class="point-text2 ">また、そば粉も自家製で作っています</p>
                             </div>
-                            <div class="col-md-6 point-img1 col-md-pull-6 col-sm-12" ></div>
+                            <div class="col-md-6 col-md-pull-6 col-sm-12" >
+                                <div class="point-img1"></div>
+                            </div>
                         </div>
                         <div class="col-md-12 mt-100 tab-point">
                             <div class="col-md-5 point-item point-left col-sm-12">
@@ -285,7 +287,9 @@
                                 <p class="point-text">秘伝のめんつゆにより、麵の味をさらに<br>際立たせます</p>
                                 <p class="point-text2 ">先代が開発した門外不出のめんつゆです</p>
                             </div>
-                            <div class="col-md-6 point-img2 col-sm-12"></div>
+                            <div class="col-md-6 col-sm-12">
+                                <div class="point-img2"></div>
+                            </div>
                         </div>
                         <div class="col-md-12 mt-100 tab-point">
                             <div class="col-md-5 point-item col-md-push-6 col-sm-12">
@@ -293,7 +297,9 @@
                                 <p class="point-text">長野県産のわさびにより、ピリッと辛いそばに変化します</p>
                                 <p class="point-text2 ">味の変化により、何度でもそばを楽しめます</p>
                             </div>
-                            <div class="col-md-6 point-img3 col-md-pull-6 col-sm-12"></div>
+                            <div class="col-md-6 col-md-pull-6 col-sm-12">
+                                <div class="point-img3"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -306,8 +312,12 @@
                             <div class="title-bg"></div>
                             <h2 class="news-title title" style="color:#fff;">おすすめ料理</h2>
                         </div>
-                        <div class="col-md-12 menu-wrap mt-80">
-                            <div class="col-md-4 col-xs-12 tab-menu col-sm-7 col-md-push-8">
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                    <div class="col-md-12 menu-wrap mt-80">
+                            <div class="col-md-4 col-xs-12 tab-menu col-sm-4 col-md-push-8">
                                 <div class="menu-item-wrap menu-item1">
                                     <p class="menu-title-sazanami">さざなみセット</p>
                                     <p class="menu-item-sazanami">・もりそば</p>
@@ -316,7 +326,7 @@
                                     <p class="menu-price-sazanami">一二００円</p>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-xs-12 tab-menu col-sm-7">
+                            <div class="col-md-4 col-xs-12 tab-menu col-sm-4">
                                 <div class="menu-item-wrap menu-item2">
                                     <p class="menu-title">とろろそばセット</p>
                                     <p class="menu-item">・とろろそば</p>
@@ -324,7 +334,7 @@
                                     <p class="menu-price">九００円</p>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-xs-12 tab-menu col-sm-7 col-md-pull-8">
+                            <div class="col-md-4 col-xs-12 tab-menu col-sm-4 col-md-pull-8">
                                 <div class="menu-item-wrap menu-item3">
                                     <p class="menu-title">天そばセット</p>
                                     <p class="menu-item">・天そば</p>
@@ -335,6 +345,7 @@
                         </div>
                     </div>
                 </div>
+
         </div>
 
         <div id="photo" class="pt-100 pb-70">

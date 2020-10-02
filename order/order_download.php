@@ -68,5 +68,6 @@ require_once('../common/common.php');
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
     <script src="../js/add.js"></script>
     <script src="../js/weather.js"></script>
+    <script src="../js/dateSelect.js"></script>
 </body>
 </html>

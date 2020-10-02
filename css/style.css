@@ -2321,7 +2321,7 @@ pre {
 
 input:focus,
 .clear-fix textarea:focus {
-  border: 1px solid rgba(0, 0, 0, 0.4);
+  border:none;
   outline: none;
 }
 /*---------------------------------------

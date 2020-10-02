@@ -3,7 +3,7 @@ html{
 }
 
 .recruit-bg{
-    background-image: url("../img/images/recruit.png");
+    background-image: url("../img/images/recruit.jpg");
     background-size: cover;
     background-position-y: -150px;
     padding-top: 180px;
@@ -218,6 +218,11 @@ textarea{
     height: 40px;
     text-align: center;
     background-color: #B7282E;
+}
+
+.submit:active{
+    box-shadow: none;
+    transform: translateY(-4px);
 }
 
 @media (max-width: 769px){
